@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Statistics, Visualization and EDA - InternNova Week 4" width="100%">
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python">
@@ -109,33 +106,32 @@ The mean is higher than the median, so Sales is right-skewed because of a few ve
 
 | Matplotlib | Seaborn | EDA |
 |---|---|---|
-| ![Line](charts/m_line.png) | ![Count](charts/s_count.png) | ![Correlation](charts/e_corr_sales.png) |
-| ![Bar](charts/m_bar.png) | ![Box](charts/s_box.png) | ![Patterns](charts/e_patterns.png) |
-| ![Pie](charts/m_pie.png) | ![Heatmap](charts/s_heat.png) | ![Recommendations](charts/r_recommendations.png) |
-| ![Histogram](charts/m_hist.png) | ![Pair](charts/s_pair.png) | ![Outliers](charts/outliers.png) |
-| ![Scatter](charts/m_scatter.png) | | |
+| ![Line](m_line.png) | ![Count](s_count.png) | ![Correlation](e_corr_sales.png) |
+| ![Bar](m_bar.png) | ![Box](s_box.png) | ![Patterns](e_patterns.png) |
+| ![Pie](m_pie.png) | ![Heatmap](s_heat.png) | ![Recommendations](r_recommendations.png) |
+| ![Histogram](m_hist.png) | ![Pair](s_pair.png) | ![Outliers](outliers.png) |
+| ![Scatter](m_scatter.png) | | |
 
 ### Data cleaning: before and after
 
-![Before](charts/before_cleaning.png)
-![After](charts/after_cleaning.png)
+![Before](before_cleaning.png)
+![After](after_cleaning.png)
 
 ## Repository Structure
 
 ```
 InternNova-Week4-EDA/
 ├── README.md
-├── assets/
-│   └── banner.png
-├── notebook/
-│   └── Week4_Statistics_Visualization_EDA_Gajanan_Raje.ipynb
-├── data/
-│   ├── sales_raw.csv
-│   └── sales_clean.csv
-├── charts/
-│   └── (all PNG charts)
-└── report/
-    └── Week4_Report_Gajanan_Raje.pdf
+├── banner.png
+├── Week4_Statistics_Visualization_EDA_Gajanan_Raje.ipynb
+├── Week4_Report_Gajanan_Raje.pdf
+├── sales_raw.csv
+├── sales_clean.csv
+├── outliers.png
+├── m_line.png  m_bar.png  m_pie.png  m_hist.png  m_scatter.png
+├── s_count.png  s_box.png  s_heat.png  s_pair.png
+├── before_cleaning.png  after_cleaning.png
+└── e_corr_sales.png  e_patterns.png  r_recommendations.png
 ```
 
 ## How to Run
